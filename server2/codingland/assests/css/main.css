@@ -1,0 +1,154 @@
+#farah{
+	width: 190px;
+	height: 190px;
+}
+
+#im{width: 200px;
+	height: 150px;
+
+}
+.image
+{
+	width: 25%;
+}
+
+.image2
+{
+	height: 60px;
+}
+
+.image3
+{
+	height: 40px;
+	margin-top: 5px;
+}
+
+.image4
+{
+	margin-top: -15px;
+}
+
+.image5
+{
+	height: 60px;
+}
+
+.image6
+{
+		margin-top: 20px;
+
+
+
+}
+.musique{
+
+	height: 30px;
+}
+
+.texte
+{
+	/*height: 150px;*/
+	width: 70%;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+
+.taillepol
+{
+	font-size: 20px;
+}
+
+
+.slider .carousel-inner {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.slider .carousel-inner h1 {
+	display: flex;
+	position: absolute;
+	color: rgb(57, 117, 156);
+	z-index: 3;
+	font-size: 50px; 
+
+}
+
+.formulaire
+{
+background-color:  #d1dbee;
+}
+
+.partenaires
+{
+	color: white;
+	text-align: center;
+}
+
+.activités
+{
+	color: black;
+	text-align: center;
+}
+
+.footer
+{
+	background-color: black;
+}
+
+.geo {
+    border: 5px solid white;
+    border-radius: 20px;
+    height: 600px;
+    background-color: white;
+    width: 70%;
+    margin-left: 20px;
+}
+
+.border
+{
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.texte2
+{
+	margin-top: 15px;
+
+}
+
+.white 
+{
+	color: white;
+}
+
+.right
+{
+	float: right;
+	margin-right: 5px;
+}
+
+.login
+{
+background-color: #b40101;
+color: white;
+}
+
+.deplacement
+{
+	margin-left: 550px;
+}
+
+.grisg
+{
+  background-color:  #d6d6c2;
+}
+
+.clic
+{
+	margin-top: 70px;
+	background-color: #b40101;
+	color: rgb(90, 90, 236);
+}

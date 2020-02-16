@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">   
+	<title></title>
+	<link rel="stylesheet" href="static/css/bootstrap.min.css">
+	<link rel="stylesheet" href="static/css/main.css">
+</head>
+<body>
+	
+
+  <nav class="navbar  navbar-fixed-top  navbar-expand-lg navbar-light bg-light ">
+    <div class="container">
+     <a class="navbar-brand" href="#"><img src="static/img/gg.png" class="image" alt="" width="120" height="100"></img></a>
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">ACCUEIL</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html#activite">NOS&nbsp;ACTIVITÉS</a>
+              </li>
+             
+              <li class="nav-item active">
+                <a data-scroll class="nav-link js-scroll" href="index.html#apropos">A&nbsp;PROPOS</a> 
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="contact.html">CONTACT</a> 
+               <li class="nav-item active">
+                <a class="nav-link" href="index.html">INSCRIPTION</a>
+              </li>
+            </ul> &nbsp;&nbsp;&nbsp;
+            <button class="btn btn-outline-info btn-block color-color-99CC5B"> <a href="login.html"> CONNEXION</a></button>
+           </div>
+     </div>
+   </nav>
+
+
+
+<div class="slider">
+    <div id="main-slider" class="carousel slide" data-ride="carousel" >
+      <div class="carousel-inner">
+        <div style="margin-left: 8%;margin-bottom: 40%;"class="clic" >
+              <h1>La santé de nos salariés <br> la santé de notre entreprise<h1><br></div>
+              <h1 class="clic"><a data-scroll style="color: rgb(121, 175, 219);"></a></h1>
+       <div class="carousel-item active">
+          <img class="d-block w-100" src="static/img/11.jpg">
+        </div>
+      </div>
+    </div>
+ </div>
+
+ <div class="formulaire" id="activite"> <br><br>
+  <div class="container">
+    <div class="row">
+  <h1 class="col-sm activités">NOS&nbsp;ACTIVITÉS</h1>
+</div><br>
+</div>
+  <div class="container">
+    <div class="row border">
+      <div class=" col-md-3 geo"><img src="static/img/4.png" class="texte" ><br><br> Les bienfaits du sport en entreprise
+        <ul><br><li>Améliorer les performances de l’entreprise</li>
+        <li>Donne de la motivation et de l’énergie au quotidien</li>
+      <li>Réduit le stress</li>
+    <li>Apporte de la confiance en soi</li>
+    Apprendre à atteindre ses objectifs</ul></div>
+
+      <div class="col-md-3 geo"><img src="static/img/musique.png" class="texte" >  <br> <br>  Les bienfaits de la musicothérapie
+        <ul><br><li> réduit l'anxiété et les effets physiques du stress</li>
+        <li>Elle soulage la douleur constante ou récurrente (arthrite, ostéoporose)</li>
+      <li> réduit la dépression et d'autres symptômes</li>
+    <li>Améliorer le sommeil
+    </li>
+</div>
+   </ul><p class="texte2">
+    
+
+        
+      <div class="col-md-3 geo">
+        <img src="static/img/5.png" class="texte" id="farah " style="margin-left: 30px;"><br>
+    <div class="row col-lg-6" style="margin-left: 8%;">
+    <form class="form-signin" action="register" method="POST">
+      
+      {% csrf_token%}
+
+     FIRST NAME:
+     <input name="first_name" placeholder="first_name"type="text" ><br>
+     LAST NAME:
+     <input name="last_name" placeholder="last_name" type="text" ><br>
+     USER-NAME :
+     <input name="username" placeholder="username" type="text"><br>
+     MAIL:
+     <input name="email" placeholder="first_name" type="email"><br>
+     PASSWORD:
+     <input name="password1" placeholder="password" type="password"><br>
+     CONFIRM-PASSWORD
+     <input name="password2" placeholder="confirm password " type="password"><br><br>
+     <input type="submit" class="btn btn-primary" >
+    
+
+
+
+    </form>
+    </div>
+ 
+
+      </div>
+    </div>
+
+
+<div class="formulaire" id="apropos">
+	<div class="container"><br><br><br><br>
+		<div class="row">
+	      <div class="col-sm-6">
+	      	<h1>Le Score</h1>
+	         <p class="taillepol">Formule = score donner par leader chaque semaine+moyenne de visitation d'une salle de sport+moyenne musicothérapie </p>
+	      </div>
+	      
+		</div><br><br><br><br>
+</div>
+</div>
+
+
+
+
+
+
+
+<div class="footer"><br>
+	<h1 class="partenaires">NOS PARTENAIRES</h1>
+	<div class="container"><br>
+	
+		</div>
+	</div><br>
+</div>
+
+    <script src="static/js/jquery-3.3.1.js"></script>
+    <script src="static/js/popper.min.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
+    <script src="static/js/smooth-scroll.min.js"></script>
+    <script src="static/js/script.js"></script>
+</body>
+</html>
